@@ -59,6 +59,7 @@ int main() {
     num = int(d);
 
     // elágazás
+    //akkor hamis ha false vagy 0
     if (21 > 10) {
         cout << "nagyobb" << endl;
     } else if (10 == 21){
@@ -79,17 +80,18 @@ int main() {
     
     int x1 = 1;
     int y1 = 10;
-    // string eredmeny;
+
+    string eredmeny;
     // eredmeny = (x1 == y1) ? "egyenlő" : "nem egyenlő";
     // cout << eredmeny << endl;
  
     // feladat
-
     // x1 > y1 
     // x1 == y1 
     // x1 < y1 
-    string eredmeny = (x1 == y1) ? "egyenlő" : ((x1 > y1) ? "nagyobb" : "kisebb");   
-    cout << eredmeny;
+    eredmeny = (x1 == y1) ? "egyenlő" : (x1 < y1) ? "kisebb" : "nagyobb";
+    cout << eredmeny << endl;
+
     if (x1 = 2) {
         cout << "belép" << endl;
     };
@@ -135,4 +137,11 @@ int main() {
     }
 
     return 0;
+
+    // feladat
+    char c2 = 'Z';
+    while (c2 >= 'A') {
+            cout << c2 << " ";
+        c -= 3;
+    }
 }

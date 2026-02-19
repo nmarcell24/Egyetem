@@ -1,3 +1,4 @@
 - A gepi tanulas tulajdonsagai
 - 3 alapveto programozasi szerkezet
 - specialis celra valo nyelvek
+- nevesitett konstans
